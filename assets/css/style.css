@@ -1,0 +1,114 @@
+
+/* RESET */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    text-align: center;
+}
+
+/* NAVBAR */
+.nav {
+    background: rgba(0,0,0,0.7);
+    padding: 12px;
+}
+
+.nav a {
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #ffcc00;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    margin-top: 20px;
+}
+
+/* CARD DESIGN */
+.card {
+    background: #ffffff;
+    color: #333;
+    margin: 20px auto;
+    padding: 20px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+/* FORM INPUTS */
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* LABEL */
+label {
+    font-weight: bold;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ffaa00;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+}
+
+/* SUCCESS MESSAGE */
+.success {
+    color: lightgreen;
+    font-weight: bold;
+}
+
+/* ERROR MESSAGE */
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* SEAT STYLING */
+.seat {
+    display: inline-block;
+    padding: 8px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+.seat.booked {
+    background: red;
+    cursor: not-allowed;
+}
+
+/* CENTER FORM */
+form {
+    text-align: left;
+}
